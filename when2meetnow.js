@@ -20,6 +20,8 @@ const eventName = (nameValue || 'My Event');
         document.getElementById('NewEventName').value = eventName;
     }, eventName);
     await page.evaluate(() => {
+        //TODO: more robust selection over dates. Currently selects all days in next week
+
         //MouseDownDate(week,day) and MouseOverDate(week,day)
         //Selects next week (This week is 'week 1')
         //Select Sunday (Day 1)
