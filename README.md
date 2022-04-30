@@ -2,6 +2,7 @@
  When2Meet browser automation project using puppeteer
 
 Quick implementation, currently only selects all dates in next week (Sat-Sun)
+
 Future plans to build discord bot to handle robust inputs
 
 To use:
